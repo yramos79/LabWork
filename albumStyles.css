@@ -1,0 +1,17 @@
+li {
+    color:darkblue;
+}
+
+#list {
+    text-align: left;
+}
+
+tr {
+    text-align: center;
+    height: 25px;
+    color:darkblue;
+}
+
+th {
+    color:black;
+}
