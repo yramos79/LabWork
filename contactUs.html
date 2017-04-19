@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Yarima Ramos - Contact Us</title>
+</head>
+
+<body>
+    <div align="center">
+        <form method="POST" action="fakepage.html">
+            <table border="0">
+                <tr>
+                    <td align="right">First Name:</td>
+                    <td>
+                    <input type="text" name="firstname" size="25"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Last Name:</td>
+                    <td>
+                    <input type="text" name="lastname" size="25"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Email:</td>
+                    <td>
+                    <input type="text" name="email" size="25"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Type of License:</td>
+                    <td>
+                    <input type="radio" name="license" value="Layperson" checked/>Business
+                    <input type="radio" name="license" value="Professional"/>Personal
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Reason:</td>
+                    <td>
+                        <select name="options"> 
+                            <option value"Select a Reason">Select a Reason</option>
+                            <option value="Software Support">Software Support </option>
+                            <option value="Hardware Support">Hardware Support</option>
+                            <option value="Information Request">Information Request</option>
+                        </select>
+                    </td>
+                </tr>          
+                <tr>
+                    <td align="right">Additional Information:</td>
+                    <td height="80">
+                        <textarea name="info" rows="4" cols="25" ></textarea>
+                    </td>
+                </tr>          
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="haveread" value="1" />I have read the terms of service.
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right">
+                        <input type="submit" name="send" value="Send Request" />                    
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
