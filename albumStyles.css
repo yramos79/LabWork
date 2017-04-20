@@ -7,6 +7,17 @@ li {
     text-align: left;
 }
 
+#tracks, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+}
+
+#tracks {
+    width:100%;
+    background-color: lightgoldenrodyellow;
+    font-style: italic;
+}
+
 tr {
     text-align: center;
     height: 25px;
